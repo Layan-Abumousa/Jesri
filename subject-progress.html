@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التقدم حسب المادة - جسري</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="جسري" class="logo-img">
+                </a>
+                <a href="login.html" class="btn-primary">تسجيل الخروج</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <a href="dashboard.html" class="back-btn">← رجوع</a>
+
+            <div class="dashboard-header fade-in-up">
+                <div class="student-info">
+                    <div>
+                        <h2 class="student-name">مرحباً، ليلى أحمد</h2>
+                        <p class="student-grade">الصف 7 - غزة</p>
+                    </div>
+                    <button class="smart-assistant-btn">
+                        💬 المساعد الذكي
+                    </button>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card blue">
+                        <div class="stat-info">
+                            <div class="stat-label">التقدم الكلي</div>
+                            <div class="stat-value">45%</div>
+                        </div>
+                        <div class="stat-icon">📈</div>
+                    </div>
+
+                    <div class="stat-card green">
+                        <div class="stat-info">
+                            <div class="stat-label">درجة الثقة</div>
+                            <div class="stat-value">62%</div>
+                        </div>
+                        <div class="stat-icon">💚</div>
+                    </div>
+
+                    <div class="stat-card orange">
+                        <div class="stat-info">
+                            <div class="stat-label">أيام متتالية</div>
+                            <div class="stat-value">5</div>
+                        </div>
+                        <div class="stat-icon">🔥</div>
+                    </div>
+
+                    <div class="stat-card purple">
+                        <div class="stat-info">
+                            <div class="stat-label">مهارات مستعادة</div>
+                            <div class="stat-value">8</div>
+                        </div>
+                        <div class="stat-icon">🏆</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabs fade-in-up">
+                <div class="tab-buttons">
+                    <a href="dashboard.html" class="tab-btn">نظرة عامة</a>
+                    <a href="#" class="tab-btn">خطة التعافي</a>
+                    <a href="subject-progress.html" class="tab-btn active">التقدم التفصيلي</a>
+                </div>
+            </div>
+
+            <div class="content-card fade-in-up">
+                <div class="subject-progress">
+                    <h3 class="subject-progress-title">التقدم التفصيلي حسب المادة</h3>
+
+                    <div class="subject-item">
+                        <div class="subject-header">
+                            <div class="subject-name">الرياضيات</div>
+                            <div class="subject-percentage">38%</div>
+                        </div>
+                        <div class="subject-details">
+                            <span>• الكسور (الصف 4)</span>
+                            <span>• القسمة المطولة (الصف 5)</span>
+                        </div>
+                        <div class="subject-progress-bar">
+                            <div class="subject-progress-fill" style="width: 38%; background: linear-gradient(90deg, #fbbf24 0%, #f59e0b 100%);"></div>
+                        </div>
+                    </div>
+
+                    <div class="subject-item">
+                        <div class="subject-header">
+                            <div class="subject-name">العلوم</div>
+                            <div class="subject-percentage" style="color: #10b981;">85%</div>
+                        </div>
+                        <div class="subject-details">
+                            <span>✅ 85%</span>
+                            <span>• الدورة المائية (الصف 5)</span>
+                        </div>
+                        <div class="subject-progress-bar">
+                            <div class="subject-progress-fill" style="width: 85%; background: linear-gradient(90deg, #34d399 0%, #10b981 100%);"></div>
+                        </div>
+                        <div class="achievement-badge">
+                            ✅ أحسنت! أتقنت هذه المهارة
+                        </div>
+                    </div>
+
+                    <div class="subject-item">
+                        <div class="subject-header">
+                            <div class="subject-name">اللغة العربية</div>
+                            <div class="subject-percentage">55%</div>
+                        </div>
+                        <div class="subject-details">
+                            <span>55%</span>
+                            <span>• الإعراب (الصف 6)</span>
+                        </div>
+                        <div class="subject-progress-bar">
+                            <div class="subject-progress-fill" style="width: 55%; background: linear-gradient(90deg, #fbbf24 0%, #f59e0b 100%);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/animations.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التقدم التفصيلي - جسري</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="جسري" class="logo-img">
+                </a>
+                <a href="login.html" class="btn-primary">تسجيل الخروج</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <a href="dashboard.html" class="back-btn">← رجوع</a>
+
+            <div class="dashboard-header fade-in-up">
+                <div class="student-info">
+                    <div>
+                        <h2 class="student-name">مرحباً، ليلى أحمد</h2>
+                        <p class="student-grade">الصف 7 - غزة</p>
+                    </div>
+                    <button class="smart-assistant-btn">
+                        💬 المساعد الذكي
+                    </button>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card blue">
+                        <div class="stat-info">
+                            <div class="stat-label">التقدم الكلي</div>
+                            <div class="stat-value">45%</div>
+                        </div>
+                        <div class="stat-icon">📈</div>
+                    </div>
+
+                    <div class="stat-card green">
+                        <div class="stat-info">
+                            <div class="stat-label">درجة الثقة</div>
+                            <div class="stat-value">62%</div>
+                        </div>
+                        <div class="stat-icon">💚</div>
+                    </div>
+
+                    <div class="stat-card orange">
+                        <div class="stat-info">
+                            <div class="stat-label">أيام متتالية</div>
+                            <div class="stat-value">5</div>
+                        </div>
+                        <div class="stat-icon">🔥</div>
+                    </div>
+
+                    <div class="stat-card purple">
+                        <div class="stat-info">
+                            <div class="stat-label">مهارات مستعادة</div>
+                            <div class="stat-value">8</div>
+                        </div>
+                        <div class="stat-icon">🏆</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabs fade-in-up">
+                <div class="tab-buttons">
+                    <a href="dashboard.html" class="tab-btn">نظرة عامة</a>
+                    <a href="#" class="tab-btn">خطة التعافي</a>
+                    <a href="detailed-progress.html" class="tab-btn active">التقدم التفصيلي</a>
+                </div>
+            </div>
+
+            <div class="detailed-progress fade-in-up">
+                <div class="progress-header">
+                    <div class="progress-fraction">1/4</div>
+                    <div class="progress-description">خطة التعافي الشخصية<br>بناء على تشخيص الفجوات المكتشفة</div>
+                    <div class="progress-bar-wrapper" style="margin-top: 20px; background: rgba(255,255,255,0.3);">
+                        <div class="progress-bar" style="width: 25%; background: white;"></div>
+                    </div>
+                </div>
+
+                <div class="enrichment-section">
+                    <h3 class="enrichment-title">🏅 المراحل التعليمية المرتبة</h3>
+                    <p style="color: var(--text-gray); margin-bottom: 25px;">
+                        تم ترتيب المهارات من الأساسية إلى المتقدمة بحسب إتقان كل مهارة في المستوى التالي.
+                    </p>
+
+                    <div class="module-card low">
+                        <div class="module-header">
+                            <div class="module-info">
+                                <h3>الكسور</h3>
+                                <p class="module-subject">الرياضيات • الصف 4</p>
+                                <p style="margin-top: 8px; font-size: 14px;">التقدم</p>
+                            </div>
+                            <div class="module-percentage">
+                                <div class="percentage-circle">45%</div>
+                                <div class="percentage-label">الكل</div>
+                            </div>
+                        </div>
+                        <div class="module-progress-bar">
+                            <div class="module-progress-fill" style="width: 45%"></div>
+                        </div>
+                        <button class="follow-up-btn" style="background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">
+                            📖 متابعة التعلم
+                        </button>
+                    </div>
+
+                    <div class="module-card medium">
+                        <div class="module-header">
+                            <div class="module-info">
+                                <h3>القسمة المطولة</h3>
+                                <p class="module-subject">الرياضيات • الصف 5</p>
+                                <p style="margin-top: 8px; font-size: 14px;">التقدم</p>
+                            </div>
+                            <div class="module-percentage">
+                                <div class="percentage-circle">30%</div>
+                                <div class="percentage-label">الكل</div>
+                            </div>
+                        </div>
+                        <div class="module-progress-bar">
+                            <div class="module-progress-fill" style="width: 30%"></div>
+                        </div>
+                        <div class="module-status" style="background: rgba(251, 191, 36, 0.1); color: #92400e;">
+                            🔒 لفتح المهارة المطلوبة اولا اتمام فجوة سابقة
+                        </div>
+                    </div>
+
+                    <div class="module-card high">
+                        <div class="module-header">
+                            <div class="module-info">
+                                <h3>الدورة المائية</h3>
+                                <p class="module-subject">العلوم • الصف 5</p>
+                                <p style="margin-top: 8px; font-size: 14px;">التقدم</p>
+                            </div>
+                            <div class="module-percentage">
+                                <div class="percentage-circle">85%</div>
+                                <div class="percentage-label">الكل</div>
+                            </div>
+                        </div>
+                        <div class="module-progress-bar">
+                            <div class="module-progress-fill" style="width: 85%"></div>
+                        </div>
+                        <div class="module-status">
+                            ✅ أحسنت! أتقنت هذه المهارة
+                        </div>
+                    </div>
+
+                    <div class="module-card medium">
+                        <div class="module-header">
+                            <div class="module-info">
+                                <h3>الإعراب</h3>
+                                <p class="module-subject">اللغة العربية • الصف 6</p>
+                                <p style="margin-top: 8px; font-size: 14px;">التقدم</p>
+                            </div>
+                            <div class="module-percentage">
+                                <div class="percentage-circle">55%</div>
+                                <div class="percentage-label">الكل</div>
+                            </div>
+                        </div>
+                        <div class="module-progress-bar">
+                            <div class="module-progress-fill" style="width: 55%"></div>
+                        </div>
+                        <button class="follow-up-btn" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+                            📖 متابعة التعلم
+                        </button>
+                    </div>
+                </div>
+
+                <div class="encouragement-card fade-in-up" style="animation-delay: 0.3s">
+                    <div class="encouragement-icon">📈</div>
+                    <div class="encouragement-text">أنت على الطريق الصحيح!</div>
+                    <div class="encouragement-subtext">كل خطوة تقطعها تقربك أكثر. استمر في التقدم وستصل للنجاح!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/animations.js"></script>
+</body>
+</html>
